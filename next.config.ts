@@ -1,5 +1,13 @@
 import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {};
+const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
+
+const nextConfig: NextConfig = isGitHubPages
+  ? {
+      output: 'export',
+      assetPrefix: '/Solar_Velvet/',
+      trailingSlash: true,
+    }
+  : {};
 
 export default nextConfig;
