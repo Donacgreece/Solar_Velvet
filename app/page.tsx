@@ -7,11 +7,11 @@ const asset = (path: string) => `${assetBase}${path}`;
 
 // Add each new YouTube release here. The first item becomes the featured release.
 const releases = [
-  { title: 'Riviera Nights', number: '001', year: '2026', mood: 'Solar Velvet · Chill Disco', image: asset('/riviera-nights.png'), albumImage: asset('/album-riviera-nights-cd.png'), discScale: 1, youtube: 'https://youtu.be/d-JhjZPDxJM?si=7LMkOFFHgJgczrTN' },
-  { title: 'Vinyl Nights', number: '002', year: '2026', mood: 'After dark · Velvet grooves', image: asset('/vinyl-nights.png'), albumImage: asset('/album-vinyl-nights-cd.png'), discScale: 0.945, youtube: 'https://youtu.be/gNwOitM9X2U?si=TIYM9G4OVEvTTGHF' },
+  { title: 'Riviera Nights', number: '001', year: '2026', mood: 'Solar Velvet · Chill Disco', image: asset('/riviera-nights.png'), albumImage: asset('/album-riviera-nights-cd.png'), discScale: 0.95, youtube: 'https://youtu.be/d-JhjZPDxJM?si=7LMkOFFHgJgczrTN' },
+  { title: 'Vinyl Nights', number: '002', year: '2026', mood: 'After dark · Velvet grooves', image: asset('/vinyl-nights.png'), albumImage: asset('/album-vinyl-nights-cd.png'), discScale: 0.95, youtube: 'https://youtu.be/gNwOitM9X2U?si=TIYM9G4OVEvTTGHF' },
 ];
 const upcomingReleases = [
-  { title: 'Palm Radio', number: '003', year: '2026', albumImage: asset('/album-palm-radio-cd.png'), discScale: 0.945 },
+  { title: 'Palm Radio', number: '003', year: '2026', albumImage: asset('/album-palm-radio-cd.png'), discScale: 0.95 },
 ];
 const futureSets = ['Midnight Coast'];
 
