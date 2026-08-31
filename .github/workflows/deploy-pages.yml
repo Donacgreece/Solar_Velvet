@@ -38,7 +38,12 @@ jobs:
           test -f dist/client/index.html
 
       - name: Preserve framework assets
-        run: touch dist/client/.nojekyll
+        shell: bash
+        run: |
+          mv dist/client/Solar_Velvet/_next dist/client/assets
+          rmdir dist/client/Solar_Velvet
+          find dist/client -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' -o -name '*.json' -o -name '*.rsc' \) -print0 | xargs -0 sed -i 's|_next|assets|g'
+          touch dist/client/.nojekyll
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 const siteUrl = 'https://solarvelvet.com';
+const publicPath = process.env.GITHUB_ACTIONS === 'true' ? '/Solar_Velvet' : '';
 const title = 'Solar Velvet | Chill Disco Music and Sunset Mixes';
 const description = 'Solar Velvet creates cinematic chill disco mixes inspired by golden hour, coastal drives, Riviera nights and dancefloor nostalgia. Listen to Riviera Nights and discover every Solar Velvet session.';
 
@@ -27,8 +28,8 @@ export const metadata: Metadata = {
     'golden hour playlist',
   ],
   alternates: { canonical: '/' },
-  icons: { icon: '/favicon.svg', shortcut: '/favicon.svg', apple: '/favicon.svg' },
-  manifest: '/site.webmanifest',
+  icons: { icon: `${publicPath}/favicon.svg`, shortcut: `${publicPath}/favicon.svg`, apple: `${publicPath}/favicon.svg` },
+  manifest: `${publicPath}/site.webmanifest`,
   robots: {
     index: true,
     follow: true,
