@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://solarvelvet.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://solarvelvet.com/solar-velvet-cover.png</image:loc>
+      <image:title>Solar Velvet chill disco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://solarvelvet.com/solar-velvet-duo-sunset.png</image:loc>
+      <image:title>Solar Velvet music duo</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://solarvelvet.com/riviera-nights.png</video:thumbnail_loc>
+      <video:title>Riviera Nights by Solar Velvet</video:title>
+      <video:description>Riviera Nights is a cinematic chill disco mix by Solar Velvet.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/d-JhjZPDxJM</video:player_loc>
+    </video:video>
+  </url>
+</urlset>

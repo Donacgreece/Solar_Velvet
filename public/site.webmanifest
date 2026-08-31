@@ -1,0 +1,12 @@
+{
+  "name": "Solar Velvet",
+  "short_name": "Solar Velvet",
+  "description": "Cinematic chill disco mixes inspired by golden hour and Riviera nights.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faefd9",
+  "theme_color": "#0b3437",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
