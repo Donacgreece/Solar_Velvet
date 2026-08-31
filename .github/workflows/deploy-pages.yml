@@ -37,6 +37,9 @@ jobs:
           timeout 90s npm run build || test -f dist/client/index.html
           test -f dist/client/index.html
 
+      - name: Preserve framework assets
+        run: touch dist/client/.nojekyll
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
