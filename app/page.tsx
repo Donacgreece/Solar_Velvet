@@ -2,8 +2,8 @@ import { ArrowDown, ArrowUpRight, Headphones, Play, Radio } from 'lucide-react';
 
 // Add each new YouTube release here. The first item becomes the featured release.
 const releases = [
-  { title: 'Riviera Nights', number: '001', year: '2026', mood: 'Golden hour · Coastal drive', image: '/riviera-nights.png', albumImage: '/album-riviera-nights-cd.png', youtube: 'https://www.youtube.com/' },
-  { title: 'Vinyl Nights', number: '002', year: '2026', mood: 'After dark · Velvet grooves', image: '/album-vinyl-nights-cd.png', albumImage: '/album-vinyl-nights-cd.png', youtube: 'https://www.youtube.com/' },
+  { title: 'Riviera Nights', number: '001', year: '2026', mood: 'Golden hour · Coastal drive', image: '/riviera-nights.png', albumImage: '/album-riviera-nights-cd.png', youtube: 'https://www.youtube.com/@solarvelvetmusic' },
+  { title: 'Vinyl Nights', number: '002', year: '2026', mood: 'After dark · Velvet grooves', image: '/album-vinyl-nights-cd.png', albumImage: '/album-vinyl-nights-cd.png', youtube: 'https://www.youtube.com/@solarvelvetmusic' },
 ];
 const futureSets = ['Palm Radio', 'Midnight Coast'];
 
@@ -13,7 +13,7 @@ export default function Home() {
     <header className="site-nav">
       <a className="wordmark" href="#top" aria-label="Solar Velvet home"><span className="sun-mark"><i/><i/><i/></span><span>SOLAR <b>VELVET</b></span></a>
       <nav aria-label="Main navigation"><a href="#latest">Latest</a><a href="#albums">Albums</a><a href="#story">The duo</a></nav>
-      <a className="nav-cta" href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube <ArrowUpRight size={14}/></a>
+      <a className="nav-cta" href="https://www.youtube.com/@solarvelvetmusic" target="_blank" rel="noreferrer">YouTube <ArrowUpRight size={14}/></a>
     </header>
 
     <section className="hero" id="top">
@@ -32,7 +32,7 @@ export default function Home() {
 
     <section className="albums section-pad" id="albums"><div className="section-heading albums-title"><div><p className="kicker">THE ARCHIVE</p><h2>Sunset<br/><i>sessions</i></h2></div><p className="section-note">A growing collection of<br/>chill disco journeys.</p></div><div className="album-grid">{releases.map((release)=><a className="album album-live" href={release.youtube} target="_blank" rel="noreferrer" key={release.number}><div className="album-art"><img src={release.albumImage} alt={`${release.title} CD artwork`}/><span><Play size={22} fill="currentColor"/></span></div><p><b>{release.title}</b><small>{release.year} · EPISODE {release.number}</small></p></a>)}{futureSets.map((title,index)=><article className="album album-soon" key={title}><div className="album-art"><span className="soon-number">0{index+3}</span><i>COMING SOON</i></div><p><b>{title}</b><small>UPCOMING SESSION</small></p></article>)}</div></section>
 
-    <section className="radio-banner"><Radio size={28}/><div><p>THE SUN NEVER SETS ON</p><h2>SOLAR VELVET</h2></div><a className="button button-cream" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><Play size={16} fill="currentColor"/> Subscribe on YouTube</a></section>
+    <section className="radio-banner"><Radio size={28}/><div><p>THE SUN NEVER SETS ON</p><h2>SOLAR VELVET</h2></div><a className="button button-cream" href="https://www.youtube.com/@solarvelvetmusic" target="_blank" rel="noreferrer"><Play size={16} fill="currentColor"/> Subscribe on YouTube</a></section>
     <footer><div className="footer-brand"><span className="sun-mark large"><i/><i/><i/></span><h2>SOLAR <b>VELVET</b></h2></div><p>Chill disco for golden people.</p><div className="footer-row"><span>© 2026 SOLAR VELVET</span><span><Headphones size={14}/> BEST EXPERIENCED LOUD</span><a href="#top">BACK TO THE SUN ↑</a></div></footer>
   </main>;
 }
