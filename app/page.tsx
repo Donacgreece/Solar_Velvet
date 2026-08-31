@@ -2,7 +2,7 @@ import { ArrowDown, ArrowUpRight, Headphones, Play, Radio } from 'lucide-react';
 
 // Add each new YouTube release here. The first item becomes the featured release.
 const releases = [
-  { title: 'Riviera Nights', number: '001', year: '2026', mood: 'Golden hour · Coastal drive', image: '/riviera-nights.png', albumImage: '/album-riviera-nights-cd.png', youtube: 'https://www.youtube.com/@solarvelvetmusic' },
+  { title: 'Riviera Nights', number: '001', year: '2026', mood: 'Golden hour · Coastal drive', image: '/riviera-nights.png', albumImage: '/album-riviera-nights-cd.png', youtube: 'https://youtu.be/d-JhjZPDxJM?si=7LMkOFFHgJgczrTN' },
   { title: 'Vinyl Nights', number: '002', year: '2026', mood: 'After dark · Velvet grooves', image: '/album-vinyl-nights-cd.png', albumImage: '/album-vinyl-nights-cd.png', youtube: 'https://www.youtube.com/@solarvelvetmusic' },
 ];
 const futureSets = ['Palm Radio', 'Midnight Coast'];
