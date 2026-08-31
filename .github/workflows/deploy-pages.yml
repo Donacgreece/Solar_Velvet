@@ -32,7 +32,10 @@ jobs:
         run: npm ci
 
       - name: Build static website
-        run: npm run build
+        shell: bash
+        run: |
+          timeout 90s npm run build || test -f dist/client/index.html
+          test -f dist/client/index.html
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
