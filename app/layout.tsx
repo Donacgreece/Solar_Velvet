@@ -127,8 +127,8 @@ const structuredData = {
         },
         {
           '@type': 'Question',
-          name: 'Is Solar Velvet free to listen to?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Solar Velvet releases are free to listen to on the official YouTube channel. Public or commercial playback may require permission or an appropriate music licence.' },
+          name: 'Can businesses play Solar Velvet through YouTube?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. Cafés, bars, lounges and other spaces can open the official Solar Velvet YouTube channel and play the available mixes directly through YouTube.' },
         },
       ],
     },
