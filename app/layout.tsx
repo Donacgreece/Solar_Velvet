@@ -3,8 +3,8 @@ import './globals.css';
 
 const siteUrl = 'https://solarvelvet.com';
 const publicPath = '';
-const title = 'Solar Velvet | Chill Disco & Late Night R&B';
-const description = 'Solar Velvet is a two-voice music world. Golden Hours brings chill disco and airy female vocals. Midnight Rooms blends late night R&B with a soft male tenor.';
+const title = 'Solar Velvet | Music for Cafés, Bars & Relaxing Nights';
+const description = 'Discover Solar Velvet music for café ambience, cocktail bars and relaxing evenings. Stream chill disco, nu disco, late night R&B and dreamy soul on YouTube.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -36,6 +36,14 @@ export const metadata: Metadata = {
     'nu disco',
     'coastal music',
     'golden hour playlist',
+    'music for cafe',
+    'music for cafe bar',
+    'cocktail bar music',
+    'lounge music for bars',
+    'relaxing evening music',
+    'music to relax at night',
+    'background music for cafe ambience',
+    'free music to listen on YouTube',
   ],
   alternates: { canonical: '/' },
   icons: { icon: `${publicPath}/favicon.svg`, shortcut: `${publicPath}/favicon.svg`, apple: `${publicPath}/favicon.svg` },
@@ -101,6 +109,27 @@ const structuredData = {
         { '@type': 'MusicAlbum', name: 'Vinyl Nights', albumProductionType: 'StudioAlbum', byArtist: { '@id': `${siteUrl}/#artist` }, image: `${siteUrl}/album-vinyl-nights-cd.png`, url: 'https://youtu.be/gNwOitM9X2U' },
         { '@type': 'MusicAlbum', name: 'Stay Until Morning', albumProductionType: 'StudioAlbum', byArtist: { '@id': `${siteUrl}/#artist` }, image: `${siteUrl}/album-stay-until-morning-cd.png`, url: 'https://youtu.be/iwtNlugTIic' },
         { '@type': 'MusicAlbum', name: 'Palm Radio', albumProductionType: 'StudioAlbum', byArtist: { '@id': `${siteUrl}/#artist` }, image: `${siteUrl}/album-palm-radio-cd.png` },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${siteUrl}/#listening-guide`,
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'Where can I find music for a café or bar?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Solar Velvet offers chill disco, nu disco, smooth R&B and late night soul for elegant spaces and relaxed evenings. Every available release links to the official Solar Velvet YouTube channel.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What Solar Velvet music is best for relaxing at night?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Golden Hours suits sunset listening, café ambience and coastal evenings. Midnight Rooms suits low light, relaxing nights, dreamy soul and intimate late night R&B.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Is Solar Velvet free to listen to?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Solar Velvet releases are free to listen to on the official YouTube channel. Public or commercial playback may require permission or an appropriate music licence.' },
+        },
       ],
     },
   ],
