@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: '/og.png',
+      url: '/solar-velvet-share.png',
       width: 1672,
       height: 940,
       alt: 'Solar Velvet sunset over the Riviera',
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    images: ['/og.png'],
+    images: ['/solar-velvet-share.png'],
   },
 };
 
