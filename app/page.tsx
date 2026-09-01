@@ -8,11 +8,11 @@ const asset = (path: string) => `${assetBase}${path}`;
 const goldenHours = [
   { title: 'Riviera Nights', number: '001', year: '2026', albumImage: asset('/album-riviera-nights-cd.png'), youtube: 'https://youtu.be/d-JhjZPDxJM?si=7LMkOFFHgJgczrTN' },
   { title: 'Vinyl Nights', number: '002', year: '2026', albumImage: asset('/album-vinyl-nights-cd.png'), youtube: 'https://youtu.be/gNwOitM9X2U?si=TIYM9G4OVEvTTGHF' },
-  { title: 'Palm Radio', number: '003', year: '2026', albumImage: asset('/album-palm-radio-cd.png') },
+  { title: 'Palm Radio', number: '004', year: '2026', albumImage: asset('/album-palm-radio-cd.png') },
 ];
 
 const midnightRooms = [
-  { title: 'Stay Until Morning', number: '004', year: '2026', albumImage: asset('/album-stay-until-morning-cd.png') },
+  { title: 'Stay Until Morning', number: '003', year: '2026', albumImage: asset('/album-stay-until-morning-cd.png') },
 ];
 
 type Release = (typeof goldenHours)[number];
