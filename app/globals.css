@@ -21,3 +21,8 @@ footer{background:#062a2d;color:var(--cream);padding:90px 8vw 30px;text-align:ce
 .soul-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:38px}.soul-pair span{border-top:1px solid rgba(243,228,203,.22);padding-top:18px;display:flex;flex-direction:column;gap:7px}.soul-pair strong,.soul-pair small{font-size:8px;letter-spacing:.18em}.soul-pair strong{color:var(--gold)}.soul-pair b{font:italic 18px Georgia;font-weight:400}.soul-pair small{color:rgba(250,239,217,.48);line-height:1.5}
 .duo-portrait img{object-position:64% center}
 @media(max-width:850px){.duo-portrait img{object-position:66% center}}
+/* Keep the two collection entrances visually equal while preserving their identities. */
+.hero-actions{gap:14px}
+.button-secondary{background:rgba(250,239,217,.36);color:var(--ink);border:1px solid rgba(11,52,55,.48);backdrop-filter:blur(5px)}
+.midnight-dot{background:var(--ink);color:var(--cream)}
+@media(max-width:520px){.hero-actions{align-items:stretch;gap:12px}.hero-actions .button{justify-content:flex-start}}

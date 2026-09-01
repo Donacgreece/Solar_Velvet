@@ -35,7 +35,7 @@ export default function Home() {
 
     <section className="hero" id="top">
       <img className="hero-bg" src={asset('/solar-velvet-cover.png')} alt="Sunset over the Riviera"/><div className="hero-shade"/>
-      <div className="hero-copy"><p className="eyebrow">TWO SOULS · TWO FREQUENCIES</p><h1>Music for every<br/><em>shade of night.</em></h1><p className="hero-intro">Golden Hours glows with airy female vocals.<br/>Midnight Rooms moves with a soft male tenor.</p><div className="hero-actions"><a className="button button-primary" href="#golden-hours"><span className="play-dot"><Play size={15} fill="currentColor"/></span> Enter Golden Hours</a><a className="text-link" href="#midnight-rooms">Enter Midnight Rooms <ArrowDown size={16}/></a></div></div>
+      <div className="hero-copy"><p className="eyebrow">TWO SOULS · TWO FREQUENCIES</p><h1>Music for every<br/><em>shade of night.</em></h1><p className="hero-intro">Golden Hours glows with airy female vocals.<br/>Midnight Rooms moves with a soft male tenor.</p><div className="hero-actions"><a className="button button-primary" href="#golden-hours"><span className="play-dot"><Play size={15} fill="currentColor"/></span> Enter Golden Hours</a><a className="button button-secondary" href="#midnight-rooms"><span className="play-dot midnight-dot"><ArrowDown size={16}/></span> Enter Midnight Rooms</a></div></div>
       <div className="hero-stamp" aria-hidden="true"><span>TWO</span><strong>SV</strong><span>SOULS</span></div>
       <div className="marquee"><span>GOLDEN HOURS • MIDNIGHT ROOMS • TWO VOICES • ONE SOLAR VELVET • GOLDEN HOURS • MIDNIGHT ROOMS • TWO VOICES • ONE SOLAR VELVET • </span></div>
     </section>
