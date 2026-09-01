@@ -5,7 +5,6 @@ const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
 const nextConfig: NextConfig = isGitHubPages
   ? {
       output: 'export',
-      assetPrefix: '/Solar_Velvet/',
       trailingSlash: true,
     }
   : {};

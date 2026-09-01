@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 const siteUrl = 'https://solarvelvet.com';
-const publicPath = process.env.GITHUB_ACTIONS === 'true' ? '/Solar_Velvet' : '';
+const publicPath = '';
 const title = 'Solar Velvet | Chill Disco Music and Sunset Mixes';
 const description = 'Solar Velvet creates cinematic chill disco mixes inspired by golden hour, coastal drives, Riviera nights and dancefloor nostalgia. Listen to Riviera Nights and discover every Solar Velvet session.';
 
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: '/solar-velvet-cover.png',
+      url: '/og.png',
       width: 1672,
       height: 940,
       alt: 'Solar Velvet sunset over the Riviera',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    images: ['/solar-velvet-cover.png'],
+    images: ['/og.png'],
   },
 };
 

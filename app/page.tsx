@@ -2,7 +2,7 @@ import { ArrowDown, ArrowUpRight, Headphones, Play, Radio } from 'lucide-react';
 
 export const dynamic = 'force-static';
 
-const assetBase = process.env.GITHUB_ACTIONS === 'true' ? '/Solar_Velvet' : '';
+const assetBase = '';
 const asset = (path: string) => `${assetBase}${path}`;
 
 const goldenHours = [
