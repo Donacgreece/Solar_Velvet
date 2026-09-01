@@ -28,7 +28,7 @@ Official website for **Solar Velvet**, a two-voice music project connecting Gold
 - XML sitemap and crawler configuration
 - Social sharing metadata
 - Google Search Console verification
-- AI discovery summary in `llms.txt`
+- Machine-readable discovery summary in `llms.txt`
 - Mobile and desktop layouts
 
 ## Technology
