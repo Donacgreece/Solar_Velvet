@@ -1,11 +1,13 @@
 # Solar Velvet
 
-Official website for **Solar Velvet**, a chill disco music project inspired by golden hour, coastal drives, Riviera nights and dancefloor nostalgia.
+Official website for **Solar Velvet**, a two-voice music project connecting Golden Hours chill disco with Midnight Rooms late night R&B.
 
 ## Live music
 
 - [Solar Velvet on YouTube](https://www.youtube.com/@solarvelvetmusic)
 - [Riviera Nights](https://youtu.be/d-JhjZPDxJM)
+- [Vinyl Nights](https://youtu.be/gNwOitM9X2U)
+- [Stay Until Morning](https://youtu.be/iwtNlugTIic)
 
 ## Releases
 
@@ -13,16 +15,20 @@ Official website for **Solar Velvet**, a chill disco music project inspired by g
 | --- | --- | --- |
 | 001 | Riviera Nights | Available |
 | 002 | Vinyl Nights | Available |
+| 003 | Stay Until Morning | Available |
+| 004 | Palm Radio | Coming soon |
 
 ## Website features
 
 - Responsive cinematic landing page
-- Featured YouTube release
-- Solar Velvet artist section
-- Album and session archive
+- Golden Hours and Midnight Rooms collections
+- Female Chill Disco and male Late Night R&B identities
+- Album and YouTube session archive
 - Search engine metadata and structured data
 - XML sitemap and crawler configuration
 - Social sharing metadata
+- Google Search Console verification
+- AI discovery summary in `llms.txt`
 - Mobile and desktop layouts
 
 ## Technology

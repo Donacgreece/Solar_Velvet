@@ -3,8 +3,8 @@ import './globals.css';
 
 const siteUrl = 'https://solarvelvet.com';
 const publicPath = '';
-const title = 'Solar Velvet | Chill Disco Music and Sunset Mixes';
-const description = 'Solar Velvet creates cinematic chill disco mixes inspired by golden hour, coastal drives, Riviera nights and dancefloor nostalgia. Listen to Riviera Nights and discover every Solar Velvet session.';
+const title = 'Solar Velvet | Chill Disco & Late Night R&B';
+const description = 'Solar Velvet is a two-voice music world. Golden Hours brings chill disco and airy female vocals. Midnight Rooms blends late night R&B with a soft male tenor.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -17,9 +17,19 @@ export const metadata: Metadata = {
   category: 'Music',
   keywords: [
     'Solar Velvet',
+    'Golden Hours',
+    'Midnight Rooms',
     'chill disco',
+    'late night R&B',
+    'chill R&B',
+    'dreamy soul',
+    'sunset funk',
+    'female airy vocals',
+    'soft male tenor',
     'Riviera Nights',
     'Vinyl Nights',
+    'Stay Until Morning',
+    'Palm Radio',
     'sunset music',
     'disco mix',
     'chill music',
@@ -76,19 +86,21 @@ const structuredData = {
       publisher: { '@id': `${siteUrl}/#artist` },
     },
     {
-      '@type': 'MusicGroup',
+      '@type': ['Organization', 'MusicGroup'],
       '@id': `${siteUrl}/#artist`,
       name: 'Solar Velvet',
       url: `${siteUrl}/`,
       email: 'info@solarvelvet.com',
-      description: 'A chill disco music project creating cinematic mixes inspired by golden hour, coastal drives and Riviera nights.',
-      genre: ['Chill disco', 'Nu disco'],
+      description: 'A two-voice music project connecting Golden Hours chill disco with Midnight Rooms late night R&B, dreamy soul and cinematic coastal sound.',
+      genre: ['Chill disco', 'Nu disco', 'Sunset funk', 'Chill R&B', 'Late night soul'],
       image: `${siteUrl}/solar-velvet-duo-sunset.png`,
       logo: `${siteUrl}/favicon.svg`,
       sameAs: ['https://www.youtube.com/@solarvelvetmusic'],
       album: [
-        { '@type': 'MusicAlbum', name: 'Riviera Nights', image: `${siteUrl}/album-riviera-nights-cd.png`, url: 'https://youtu.be/d-JhjZPDxJM' },
-        { '@type': 'MusicAlbum', name: 'Vinyl Nights', image: `${siteUrl}/album-vinyl-nights-cd.png` },
+        { '@type': 'MusicAlbum', name: 'Riviera Nights', albumProductionType: 'StudioAlbum', byArtist: { '@id': `${siteUrl}/#artist` }, image: `${siteUrl}/album-riviera-nights-cd.png`, url: 'https://youtu.be/d-JhjZPDxJM' },
+        { '@type': 'MusicAlbum', name: 'Vinyl Nights', albumProductionType: 'StudioAlbum', byArtist: { '@id': `${siteUrl}/#artist` }, image: `${siteUrl}/album-vinyl-nights-cd.png`, url: 'https://youtu.be/gNwOitM9X2U' },
+        { '@type': 'MusicAlbum', name: 'Stay Until Morning', albumProductionType: 'StudioAlbum', byArtist: { '@id': `${siteUrl}/#artist` }, image: `${siteUrl}/album-stay-until-morning-cd.png`, url: 'https://youtu.be/iwtNlugTIic' },
+        { '@type': 'MusicAlbum', name: 'Palm Radio', albumProductionType: 'StudioAlbum', byArtist: { '@id': `${siteUrl}/#artist` }, image: `${siteUrl}/album-palm-radio-cd.png` },
       ],
     },
   ],

@@ -4,21 +4,32 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://solarvelvet.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-01</lastmod>
     <image:image>
-      <image:loc>https://solarvelvet.com/solar-velvet-cover.png</image:loc>
-      <image:title>Solar Velvet chill disco</image:title>
+      <image:loc>https://solarvelvet.com/og.png</image:loc>
+      <image:title>Solar Velvet, Golden Hours and Midnight Rooms</image:title>
     </image:image>
     <image:image>
       <image:loc>https://solarvelvet.com/solar-velvet-duo-sunset.png</image:loc>
-      <image:title>Solar Velvet music duo</image:title>
+      <image:title>The two voices of Solar Velvet</image:title>
     </image:image>
     <video:video>
       <video:thumbnail_loc>https://solarvelvet.com/riviera-nights.png</video:thumbnail_loc>
       <video:title>Riviera Nights by Solar Velvet</video:title>
-      <video:description>Riviera Nights is a cinematic chill disco mix by Solar Velvet.</video:description>
+      <video:description>Golden Hours chill disco with airy female vocals, Riviera sunsets and cinematic coastal grooves.</video:description>
       <video:player_loc>https://www.youtube.com/embed/d-JhjZPDxJM</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://solarvelvet.com/vinyl-nights.png</video:thumbnail_loc>
+      <video:title>Vinyl Nights by Solar Velvet</video:title>
+      <video:description>A Golden Hours chill disco session with nu disco, sunset funk and airy female vocals.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/gNwOitM9X2U</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://solarvelvet.com/album-stay-until-morning-cd.png</video:thumbnail_loc>
+      <video:title>Stay Until Morning by Solar Velvet</video:title>
+      <video:description>Midnight Rooms late night R&amp;B with dreamy soul, intimate beats and a soft male tenor.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/iwtNlugTIic</video:player_loc>
     </video:video>
   </url>
 </urlset>
