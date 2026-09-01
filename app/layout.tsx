@@ -80,6 +80,7 @@ const structuredData = {
       '@id': `${siteUrl}/#artist`,
       name: 'Solar Velvet',
       url: `${siteUrl}/`,
+      email: 'info@solarvelvet.com',
       description: 'A chill disco music project creating cinematic mixes inspired by golden hour, coastal drives and Riviera nights.',
       genre: ['Chill disco', 'Nu disco'],
       image: `${siteUrl}/solar-velvet-duo-sunset.png`,

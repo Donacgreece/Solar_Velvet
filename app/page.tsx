@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowUpRight, Headphones, Play, Radio } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Headphones, Mail, Play, Radio } from 'lucide-react';
 
 export const dynamic = 'force-static';
 
@@ -47,6 +47,6 @@ export default function Home() {
     <section className="collection midnight-collection section-pad" id="midnight-rooms"><div className="section-heading albums-title"><div><p className="kicker light">HIS VOICE / COLLECTION TWO</p><h2>Midnight<br/><i>Rooms</i></h2></div><p className="section-note">Chill R&amp;B, Late Night Soul and dreamy beats.<br/>A soft male tenor after the lights go low.</p></div><div className="midnight-layout"><div className="midnight-manifesto"><span>01</span><p>Low light. Slow movement. Intimate songs for the hours that belong to no one else.</p></div><div className="album-grid midnight-grid">{midnightRooms.map((release)=><AlbumCard release={release} key={release.number}/>)}</div></div></section>
 
     <section className="radio-banner"><Radio size={28}/><div><p>TWO VOICES · ONE FREQUENCY</p><h2>SOLAR VELVET</h2></div><a className="button button-cream" href="https://www.youtube.com/@solarvelvetmusic" target="_blank" rel="noreferrer"><Play size={16} fill="currentColor"/> Subscribe on YouTube</a></section>
-    <footer><div className="footer-brand"><span className="sun-mark large"><i/><i/><i/></span><h2>SOLAR <b>VELVET</b></h2></div><p>Golden light. Midnight soul.</p><div className="footer-row"><span>© 2026 SOLAR VELVET</span><span><Headphones size={14}/> BEST EXPERIENCED LOUD</span><a href="#top">BACK TO THE SUN ↑</a></div></footer>
+    <footer><div className="footer-brand"><span className="sun-mark large"><i/><i/><i/></span><h2>SOLAR <b>VELVET</b></h2></div><p>Golden light. Midnight soul.</p><a className="footer-email" href="mailto:info@solarvelvet.com"><Mail size={15}/> info@solarvelvet.com</a><div className="footer-row"><span>© 2026 SOLAR VELVET</span><span><Headphones size={14}/> BEST EXPERIENCED LOUD</span><a href="#top">BACK TO THE SUN ↑</a></div></footer>
   </main>;
 }
