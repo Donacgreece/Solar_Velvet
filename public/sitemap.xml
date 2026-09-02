@@ -13,6 +13,10 @@
       <image:loc>https://solarvelvet.com/solar-velvet-duo-sunset.png</image:loc>
       <image:title>The two voices of Solar Velvet</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://solarvelvet.com/album-somewhere-past-midnight-cd.png</image:loc>
+      <image:title>Somewhere Past Midnight by Solar Velvet</image:title>
+    </image:image>
     <video:video>
       <video:thumbnail_loc>https://solarvelvet.com/riviera-nights.png</video:thumbnail_loc>
       <video:title>Riviera Nights by Solar Velvet</video:title>
@@ -30,6 +34,12 @@
       <video:title>Stay Until Morning by Solar Velvet</video:title>
       <video:description>Midnight Rooms late night R&amp;B with dreamy soul, intimate beats and a soft male tenor.</video:description>
       <video:player_loc>https://www.youtube.com/embed/iwtNlugTIic</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://solarvelvet.com/album-somewhere-past-midnight-cd.png</video:thumbnail_loc>
+      <video:title>Somewhere Past Midnight by Solar Velvet</video:title>
+      <video:description>Midnight Rooms late night R&amp;B with moonlit coastal atmosphere, dreamy soul and a soft male tenor.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/gyixC-QE_c8</video:player_loc>
     </video:video>
   </url>
 </urlset>

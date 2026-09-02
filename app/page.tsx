@@ -13,6 +13,7 @@ const goldenHours = [
 
 const midnightRooms = [
   { title: 'Stay Until Morning', number: '003', year: '2026', albumImage: asset('/album-stay-until-morning-cd.png'), youtube: 'https://youtu.be/iwtNlugTIic' },
+  { title: 'Somewhere Past Midnight', number: '005', year: '2026', albumImage: asset('/album-somewhere-past-midnight-cd.png'), youtube: 'https://www.youtube.com/watch?v=gyixC-QE_c8' },
 ];
 
 type Release = (typeof goldenHours)[number];
