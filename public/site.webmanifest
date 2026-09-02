@@ -1,0 +1,12 @@
+{
+  "name": "Solar Velvet",
+  "short_name": "Solar Velvet",
+  "description": "Two voices and two music worlds: Golden Hours chill disco and Midnight Rooms late night R&B.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faefd9",
+  "theme_color": "#0b3437",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
